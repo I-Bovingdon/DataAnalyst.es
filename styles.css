@@ -135,7 +135,7 @@ body {
 }
 
 .hero-content .subtitle {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 500;
     opacity: 0.95;
@@ -216,6 +216,18 @@ body {
     background-color: #8B2020;
     transform: translateY(-2px);
     box-shadow: 0 8px 16px rgba(168, 46, 46, 0.3);
+}
+
+.btn-connect {
+    background-color: #1565C0;
+    color: var(--white);
+    border: 2px solid #1565C0;
+}
+
+.btn-connect:hover {
+    background-color: #0D47A1;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(21, 101, 192, 0.3);
 }
 
 /* ==================== 
@@ -428,7 +440,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(52, 152, 219, 0.85);
+    background-color: rgba(52, 152, 219, 0.9);
     z-index: 1;
 }
 
