@@ -12,44 +12,37 @@
             <div class="container">
                 <h1 class="logo">IBC</h1>
                 <ul class="nav-links">
-                    <!-- Eliminado botón Sobre Mí -->
-                    <li><a href="#skills" class="nav-link-title">Habilidades</a></li>
-                    <li><a href="#experience" class="nav-link-title">Experiencia</a></li>
-                    <li><a href="#education" class="nav-link-title">Formación</a></li>
-                    <li><a href="#contact" class="nav-link-title">Contacto</a></li>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#education">Formación</a></li>
+                    <li><a href="#hobbies">Aficiones</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <!-- Hero -->
+        <!-- Hero Section -->
         <section class="hero">
-            <div class="container hero-vertical" style="padding-bottom: 4.5rem;">
-                <img src="image/Profile.png" alt="Foto de Ismael Bovingdon" class="profile-photo">
-                <h2>Ismael Bovingdon Castillejo</h2>
-                <p class="subtitle">Data Analyst | SQL & Python | Máster en Data Science (en curso)</p>
-                <a href="#contact" class="btn btn-primary btn-connect" style="margin-top:2rem;">Conectar</a>
-                <a href="image/CV-ISMAEL-BOVINGDON.pdf" class="btn-cv" target="_blank">
-                    <span class="pdf-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="22" height="22"><rect width="32" height="32" rx="6" fill="#fff"/><path d="M8 4h16a2 2 0 0 1 2 2v20a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm2 4v16h12V8H10zm2 2h8v12h-8V10zm1 2v8h6v-8h-6z" fill="#a8001c"/></svg>
-                    </span>
-                    CV
-                </a>
+            <div class="container">
+                <div class="hero-content">
+                    <img src="image/Profile.png" alt="Foto de Ismael Bovingdon" class="profile-photo">
+                    <h2>Ismael Bovingdon Castillejo</h2>
+                    <p class="subtitle">Data Analyst | SQL & Python | Máster en Data Science (en curso)</p>
+                    <a href="#contact" class="btn btn-primary">Conectar</a>
+                </div>
             </div>
         </section>
 
         <!-- Sobre Mí -->
-        <section class="about section">
+        <section id="about" class="section about">
             <div class="container">
-                <div class="about-vertical">
-                    <div class="about-box">
-                        <h3 class="about-title electric-blue">Sobre Mí</h3>
-                        <p class="about-desc">Ingeniero Mecánico con experiencia en desarrollo backend en entorno financiero, gestión técnica y análisis de datos en proyectos industriales. Actualmente cursando Máster en Data Science y Big Data, orientado a roles junior / entry-level de Data Analyst o Data Engineer. Perfil analítico, estructurado y orientado a aportar valor mediante el uso de datos para la toma de decisiones de negocio e industria.</p>
-                    </div>
-                    <div class="highlight-box about-dark">
-                        <p><strong>Especialización:</strong> SQL, Python, Análisis de Datos, Prevención de Riesgos Laborales</p>
-                    </div>
+                <h3>Sobre Mí</h3>
+                <p>Ingeniero Mecánico con experiencia en desarrollo backend en entorno financiero, gestión técnica y análisis de datos en proyectos industriales. Actualmente cursando Máster en Data Science y Big Data, orientado a roles junior / entry-level de Data Analyst o Data Engineer. Perfil analítico, estructurado y orientado a aportar valor mediante el uso de datos para la toma de decisiones de negocio e industria.</p>
+                <div class="highlight-box">
+                    <p><strong>Especialización:</strong> SQL, Python, Análisis de Datos, Prevención de Riesgos Laborales</p>
                 </div>
             </div>
         </section>
@@ -75,14 +68,6 @@
                         <h4>Idiomas</h4>
                         <p>Español: nativo, Inglés: B2+</p>
                     </div>
-                    <a href="https://i-bovingdon.github.io/DataAnalyst/" class="skill-card skill-card-link" style="cursor:pointer; text-decoration:none;">
-                        <h4>Proyectos</h4>
-                        <ul style="text-align:left; margin:0 0 0 1em;">
-                            <li>Calculadora Gráfica Web</li>
-                            <li>Control de Stock</li>
-                            <li>Data Mining - Series Temporales</li>
-                        </ul>
-                    </a>
                 </div>
             </div>
         </section>
@@ -132,7 +117,13 @@
             </div>
         </section>
 
-        <!-- ...se elimina la sección de Aficiones... -->
+        <!-- Aficiones -->
+        <section id="hobbies" class="section hobbies">
+            <div class="container">
+                <h3>Aficiones</h3>
+                <p>Apasionado por la tecnología, el análisis de datos y la resolución de problemas complejos. Disfruto de actividades al aire libre como el senderismo y la lectura de libros técnicos. Interesado en el aprendizaje continuo y la innovación en el campo de la ciencia de datos.</p>
+            </div>
+        </section>
 
         <!-- Contacto -->
         <section id="contact" class="section contact">
@@ -140,10 +131,10 @@
                 <h3>Contacto</h3>
                 <p>¿Interesado en colaborar? Envíame un mensaje</p>
                 <div class="contact-info">
-                    <a href="mailto:ishmaelbovingdon@gmail.com" class="btn btn-secondary contact-icon"><span><svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='#111' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><rect x='2' y='4' width='20' height='16' rx='3'/><path d='M3 6l9 7 9-7'/></svg></span> Email</a>
-                    <a href="tel:+34692871279" class="btn btn-secondary contact-icon"><span><svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='#111' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M22 16.92V21a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h4.09a2 2 0 0 1 2 1.72c.13 1.13.37 2.23.72 3.28a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c1.05.35 2.15.59 3.28.72A2 2 0 0 1 22 16.92z'/></svg></span> Teléfono</a>
-                    <a href="https://linkedin.com/in/ismael-bovingdon" class="btn btn-secondary contact-icon"><span style="font-size:1.2em; font-weight:bold;">in</span> LinkedIn</a>
-                    <a href="https://github.com/i-bovingdon" class="btn btn-secondary contact-icon github"><span><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.17-1.1-1.48-1.1-1.48-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05a9.18 9.18 0 0 1 2.5-.34c.85 0 1.71.11 2.5.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg></span> GitHub</a>
+                    <a href="mailto:ishmaelbovingdon@gmail.com" class="btn btn-secondary">Email</a>
+                    <a href="tel:+34692871279" class="btn btn-secondary">Teléfono</a>
+                    <a href="https://linkedin.com/in/ismael-bovingdon" class="btn btn-secondary">LinkedIn</a>
+                    <a href="https://github.com/i-bovingdon" class="btn btn-secondary">GitHub</a>
                 </div>
             </div>
         </section>
