@@ -459,9 +459,10 @@ body {
 }
 
 .contact > .container > p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
-    opacity: 0.9;
+    opacity: 1;
+    font-weight: 600;
 }
 
 .contact-info {
