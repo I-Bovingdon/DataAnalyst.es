@@ -138,6 +138,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    text-align: center;
 }
 .hero-left {
     flex: 1;
@@ -281,6 +282,14 @@ body {
     text-underline-offset: 6px;
     color: #5dade2;
     font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.about-title.electric-blue {
+    color: #fff !important;
+    text-shadow: none;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -500,6 +509,11 @@ body {
     color: var(--white);
     filter: none;
 }
+.contact-icon.github span svg {
+    color: #222;
+    fill: #222;
+    stroke: #222;
+}
 
 /* ==================== 
    FOOTER
@@ -556,16 +570,16 @@ body {
     }
 
     .timeline::before {
-        left: -20px;
+        left: 18px;
     }
 
     .timeline-item {
-        margin-left: 0;
-        padding-left: 3rem;
+        margin-left: 1.5rem;
+        padding-left: 3.5rem;
     }
 
     .timeline-item::before {
-        left: -30px;
+        left: -18px;
     }
 
     .about-vertical {
@@ -589,5 +603,18 @@ body {
 
     .section h3 {
         font-size: 1.5rem;
+    }
+
+    .timeline::before {
+        left: 14px;
+    }
+
+    .timeline-item {
+        margin-left: 0.5rem;
+        padding-left: 2.5rem;
+    }
+
+    .timeline-item::before {
+        left: -14px;
     }
 }
