@@ -136,8 +136,8 @@ body {
 }
 .hero-right {
     flex: 1;
-    background: rgba(44,62,80,0.13);
-    box-shadow: 0 2px 12px rgba(44,62,80,0.12);
+    background: rgba(44,62,80,0.22);
+    box-shadow: 0 2px 12px rgba(44,62,80,0.18);
     border-radius: 12px;
     padding: 2rem 2.5rem;
     box-shadow: 0 2px 12px rgba(46,204,113,0.08);
@@ -170,8 +170,8 @@ body {
 }
 
 .profile-photo {
-    width: 180px;
-    height: 180px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 2rem;
@@ -270,7 +270,10 @@ body {
 .about-title {
     text-decoration: underline;
     text-underline-offset: 6px;
-    color: var(--primary-color);
+    color: #5dade2;
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .about-desc {
@@ -280,7 +283,7 @@ body {
 }
 
 .about-dark {
-    background-color: rgba(44,62,80,0.18);
+    background-color: rgba(44,62,80,0.32);
     border-left: 4px solid var(--accent-color);
     color: var(--white);
 }
@@ -445,7 +448,9 @@ body {
 .contact > .container > p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    opacity: 0.9;
+    opacity: 1;
+    color: #fff;
+    font-weight: 500;
 }
 
 
@@ -455,12 +460,23 @@ body {
     gap: 1.5rem;
     flex-wrap: wrap;
 }
+.contact-info .btn-secondary {
+    font-size: 1.15rem;
+    padding: 0.85rem 2.2rem;
+}
 .contact-icon span {
-    font-size: 1.15em;
+    font-size: 1.25em;
     margin-right: 0.5em;
     vertical-align: middle;
     color: var(--white);
     filter: grayscale(1) brightness(0.7);
+}
+.contact-icon.github span {
+    font-size: 1.25em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    color: var(--white);
+    filter: none;
 }
 
 /* ==================== 
